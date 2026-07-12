@@ -1,0 +1,65 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Website Default Font */
+body {
+  font-family: "Host Grotesk", sans-serif;
+}
+
+/* Button Common Style CSS */
+.btn-common {
+  background-color: #e8ba2e;
+  font-family: "Host Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1c1c1c;
+  border: none;
+  cursor: pointer;
+  padding: 18px 24px;
+  border-radius: 10px;
+}
+.btn-common i {
+  padding: 0 8px;
+}
+
+/* Navbar section css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 2%;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: flex-start;
+  gap: 85px;
+}
+
+.navbar-logo {
+  text-decoration: none;
+}
+
+.navbar-logo img {
+  width: auto;
+  height: 40px;
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+  font-weight: 500;
+}

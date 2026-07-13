@@ -120,3 +120,176 @@ body {
 .hero-content .btn {
   margin-top: 40px;
 }
+
+/* Statistics Section css*/
+.statistics {
+  padding: 14px 2%;
+}
+
+.statistics-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #f4c430;
+}
+
+.stat-card {
+  padding: 40px 40px 53px;
+}
+
+.stat-title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000102;
+}
+
+.stat-number {
+  font-size: 72px;
+  font-weight: 700;
+  color: #000102;
+  padding-top: 24px;
+}
+
+/* Host Cities CSS */
+.host-cities {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  padding: 92px 8%;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 56px;
+  font-weight: 600;
+  color: #000102;
+}
+
+.host-city-card {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  gap: 50px;
+}
+
+.city-image {
+  margin-bottom: 50px;
+}
+
+.city-image img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+}
+
+.city-content {
+  margin-top: 10px;
+}
+
+.city-title {
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000102;
+}
+
+.city-description {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: #575757;
+  margin-bottom: 12px;
+}
+.city-list {
+  margin-left: 16px;
+}
+
+.city-item {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #4d4d4d;
+}
+
+.host-action {
+  text-align: center;
+}
+
+/* Matches circle css */
+.matches-circle {
+  padding: 20px 8%;
+}
+
+.matches-circle-header {
+  padding: 24px;
+}
+
+.matches-circle-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111c2d;
+}
+.matches-circle-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #505f76;
+  padding-top: 10px;
+}
+
+.matches-table-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0 21px;
+}
+
+.matches-table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.matches-table th,
+td {
+  padding: 16px 24px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.matches-table-head {
+  background-color: #a73131;
+  color: #fff;
+}
+
+.matches-table-row {
+  text-align: center;
+}
+
+.matches-table-date {
+  font-weight: 600;
+  color: #ba1a1a;
+}
+
+.matches-table-venue {
+  font-weight: 400;
+  color: #505f76;
+}
+
+.matches-table tr {
+  font-size: 16px;
+}
+
+.matches-table-match {
+  font-weight: 600;
+  color: #111c2d;
+}
+
+.matches-table-stage {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #111c2d;
+}
+
+.matches-table-opening {
+  color: #600000;
+}
+
+.matches-table-final {
+  color: #bda00b;
+}
